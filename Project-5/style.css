@@ -1,0 +1,82 @@
+body
+{
+    background-color: lightgrey;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.card
+{
+    background-color: #ffffff;
+    margin: 5%;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(6, 6, 6, 0.3), -2px -2px 5px rgba(6, 6, 6, 0.3); 
+     padding: 30px;
+}
+
+.images-item
+{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.images-item p
+{
+    font-weight: bold;
+}
+
+.images-item i
+{
+   color: brown;
+   padding: 7px;
+   background-color: #ff000050;
+   border-radius: 5px;
+}
+
+.description
+{
+   padding-top: 15px;
+}
+
+.images
+{
+    display: flex;
+    gap: 1rem;
+   
+}
+
+.grey-container
+{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn
+{
+   background-color: blue;   
+   color: white;
+   font-size: 1rem;
+   font-weight: bold;
+   border-radius: 10px;
+   border-color: transparent;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.btn:hover
+{
+    background-color: rgb(176, 6, 111);
+}
